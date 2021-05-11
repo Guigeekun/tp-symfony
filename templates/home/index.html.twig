@@ -14,7 +14,7 @@
         <div class="col-lg-8 col-md-10 mx-auto">
             {% for article in articles %}
             <div class="post-preview">
-                <a href="{{ url('article',{'id' : article.getId()}) }}">
+                <a href="{{ url('show',{'id' : article.id}) }}">
                     <h2 class="post-title">
 
                         {{ article.title }}

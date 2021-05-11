@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f643dddd-8821-4d18-87ac-d08a1be0193b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Entity/ArticleDEPRECATED.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout/footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/footer.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/navbar.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="f643dddd-8821-4d18-87ac-d08a1be0193b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +122,7 @@
       <updated>1618581600077</updated>
       <workItem from="1618581601201" duration="4782000" />
       <workItem from="1619157806077" duration="11979000" />
-      <workItem from="1619170072285" duration="1030000" />
+      <workItem from="1619170072285" duration="1156000" />
     </task>
     <servers />
   </component>

@@ -11,7 +11,7 @@
                         <h2 class="subheading">{{article.getSubtitle()}}</h2>
                         <span class="meta">Posted by
           <a href="#">{{article.getAuthor()}}</a>
-          on {{article.getCreatedAt().format("M j, Y")}}ss</span>
+          on {{article.getCreatedAt().format("M j, Y")}}</span>
                     </div>
                 </div>
             </div>
@@ -34,4 +34,30 @@
     </article>
 
     <hr>
+    <hr>
+
+<div class="container">
+    <div class="row">
+        <h3 class="col-lg-8 col-md-10 mx-auto">{{article.comments.count()}} Comments</h3>
+    </div>
+    
+    <!-- Comments Form -->
+    {{ form_start(commentForm) }}
+        {{ form_row(commentForm.name) }}
+        {{ form_row(commentForm.email) }}
+        {{ form_row(commentForm.comment) }}
+        <button type="submit" class="btn btn-secondary">Submit</button>
+    {{ form_end(commentForm) }}
+    {% for comment in article.comments %}
+    <div class="row">
+        <div class="media mb-4 mt-4 col-lg-8 col-md-10 mx-auto">
+            <div class="media-body">
+                <h5 class="mt-0">{{comment.name}} <small>{{article.getCreatedAt().format("M j, Y")}}</small></h5>
+                <blockquote>{{comment.comment}}</blockquote>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
 {% endblock %}
